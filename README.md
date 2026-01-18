@@ -8,23 +8,24 @@
 
 | 버전 | 다운로드 | md5 |
 | - | - | - |
-| 1.2.6 | [💾](./release/1.2.6.zip) | 29f35027cde4650138724c1132169d15 |
+| 1.2.6 | [💾](https://raw.githubusercontent.com/media-processor/chzzk-clip-downloader/refs/heads/main/release/1.2.6.zip) | 29f35027cde4650138724c1132169d15 |
 
 ## 릴리즈 버전 설치 방법
 
-1. [릴리즈 버전 다운로드](./release/1.2.6.zip)
+1. [릴리즈 버전 다운로드](https://raw.githubusercontent.com/media-processor/chzzk-clip-downloader/refs/heads/main/release/1.2.6.zip)
 
 2. 압축 해제
 ![압축 해제](docs/install/0.png)
 
 3. [확장프로그램 페이지 (chrome://extensions) 접속](chrome://extensions)
 4. 우측 상단 `개발자모드` 활성화
+![확장프로그램 페이지 설정 1](docs/install/1.png)
 5. `압축해제된 확장 프로그램 로드` 버튼 클릭
-![확장프로그램 페이지 설정](docs/install/1.png)
+![확장프로그램 페이지 설정 2](docs/install/2.png)
 6. 압축 해제한 익스텐션 디렉터리 선택
-![확장프로그램 디렉터리 선택](docs/install/2.png)
+![확장프로그램 디렉터리 선택](docs/install/3.png)
 7. `전체 확장 프로그램` 목록에 보이면 설치완료
-![확장프로그램 설치 완료](docs/install/3.png)
+![확장프로그램 설치 완료](docs/install/4.png)
 
 ## 사용방법
 
