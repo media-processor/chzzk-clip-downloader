@@ -87,7 +87,7 @@
 							v{APP_INFO.version} 다운로드
 						</button>
 					</a>
-					<a href={APP_INFO.githubLink} target="_blank" rel="noreferrer">
+					<!-- <a href={APP_INFO.githubLink} target="_blank" rel="noreferrer">
 						<button
 							class="inline-flex cursor-pointer items-center justify-center rounded-lg border border-gray-600 px-6 py-3.5 text-lg font-medium text-gray-300 transition-colors duration-200 hover:border-gray-400 hover:text-white focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 focus:ring-offset-darkbg focus:outline-none"
 						>
@@ -109,7 +109,7 @@
 							</svg>
 							GitHub 저장소
 						</button>
-					</a>
+					</a> -->
 				</div>
 
 				<div class="mt-8 flex items-center gap-6 text-sm text-gray-500">

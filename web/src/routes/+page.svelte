@@ -48,8 +48,16 @@
 				class="flex cursor-pointer items-center gap-2"
 				onclick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
 			>
-				<div class="h-8 w-8 overflow-hidden rounded-lg">
-					<img src={favicon} alt="Chzzk Downloader Logo" class="h-full w-full object-cover" />
+				<div class="h-8 w-8 overflow-hidden rounded-lg flex-shrink-0">
+					<img 
+						src={favicon} 
+						alt="Chzzk Downloader Logo" 
+						class="h-full w-full object-cover" 
+						width="32"
+						height="32"
+						loading="eager"
+						decoding="async"
+					/>
 				</div>
 				<span class="hidden text-lg font-bold tracking-tight sm:block">치지직 클립 다운로더</span>
 			</button>
@@ -66,12 +74,12 @@
 					class="cursor-pointer text-sm font-medium text-gray-300 transition-colors hover:text-white"
 					>사용 방법</button
 				>
-				<a
+				<!-- <a
 					href={APP_INFO.githubLink}
 					target="_blank"
 					rel="noreferrer"
 					class="text-sm font-medium text-gray-300 transition-colors hover:text-white">GitHub</a
-				>
+				> -->
 				<a href={APP_INFO.downloadLink}>
 					<button
 						class="inline-flex cursor-pointer items-center justify-center rounded-lg bg-chzzk px-3 py-1.5 text-sm font-medium text-black transition-colors duration-200 hover:bg-chzzk-dark focus:ring-2 focus:ring-chzzk focus:ring-offset-2 focus:ring-offset-darkbg focus:outline-none"

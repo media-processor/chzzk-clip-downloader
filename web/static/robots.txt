@@ -1,3 +1,4 @@
-# allow crawling everything by default
+# static/robots.txt
 User-agent: *
-Disallow:
+Allow: /
+Sitemap: https://media-processor.github.io/chzzk-clip-downloader

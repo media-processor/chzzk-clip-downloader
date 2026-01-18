@@ -40,10 +40,10 @@
 		<div class="mb-20 text-center">
 			<h2 class="mb-6 text-3xl font-bold text-white md:text-4xl">사용 방법</h2>
 			<p class="mx-auto mb-4 max-w-2xl break-keep text-gray-400">
-				설치가 완료되었다면 이제 치지직의 클립을 소장할 준비가 되었습니다.
+				설치가 완료되었다면 이제 치지직의 클립을 소장할 준비가 되었습니다
 			</p>
 			<p class="mx-auto max-w-2xl break-keep text-gray-400">
-				간단한 몇 번의 클릭으로 고화질 영상을 다운로드하세요.
+				간단한 몇 번의 클릭으로 다운로드하세요
 			</p>
 		</div>
 

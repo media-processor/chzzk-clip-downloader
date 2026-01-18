@@ -10,7 +10,7 @@
 		</div>
 
 		<div class="flex items-center gap-6">
-			<a href={APP_INFO.githubLink} class="text-gray-400 transition-colors hover:text-white">
+			<!-- <a href={APP_INFO.githubLink} class="text-gray-400 transition-colors hover:text-white">
 				<svg
 					width="24"
 					height="24"
@@ -26,7 +26,7 @@
 					/>
 					<path d="M9 18c-4.51 2-5-2-7-2" />
 				</svg>
-			</a>
+			</a> -->
 			<a href={APP_INFO.ts2mp4Link} class="text-gray-400 transition-colors hover:text-white">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@
 		<p class="text-xs text-gray-600">
 			Released under MIT License. Current Version: {APP_INFO.version}
 		</p>
-		<p class="text-xs text-gray-600">Powered by WASM: ts2mp4, SvelteKit, and Tailwind CSS.</p>
+		<p class="text-xs text-gray-600">Powered by WASM: ts2mp4, SvelteKit, and TailwindCSS</p>
 		<p class="mt-2 text-xs text-gray-600">© 2026 d3fau1t All rights reserved.</p>
 	</div>
 </footer>
