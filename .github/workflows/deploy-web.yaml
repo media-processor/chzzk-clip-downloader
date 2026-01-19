@@ -5,6 +5,7 @@ on:
     branches:
       - main
     paths:
+      - 'docs/**'
       - 'web/**'
       - '.github/workflows/deploy-web.yaml'
 
