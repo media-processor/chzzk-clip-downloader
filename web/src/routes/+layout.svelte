@@ -6,7 +6,7 @@
 	let { children } = $props();
 
 	const siteUrl = 'https://media-processor.github.io/chzzk-clip-downloader';
-	const ogImageUrl = 'https://raw.githubusercontent.com/media-processor/chzzk-clip-downloader/refs/heads/main/docs/example/og.png';
+	const ogImageUrl = 'https://raw.githubusercontent.com/media-processor/chzzk-clip-downloader/refs/heads/main/docs/example/og.png?v=1';
 </script>
 
 <svelte:head>
