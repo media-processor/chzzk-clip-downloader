@@ -22,6 +22,7 @@
 	<meta property="og:image:height" content="630" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content={siteUrl} />
+	<meta property="og:site_name" content="치지직 클립 다운로더" />
 
 	<meta property="twitter:title" content="치지직 클립 다운로더" />
 	<meta property="twitter:description" content="치지직 클립을 소장하는 가장 쉬운 방법" />
