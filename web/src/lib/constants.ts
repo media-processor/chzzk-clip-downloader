@@ -1,8 +1,8 @@
 export const APP_INFO = {
-	version: '1.2.6',
+	version: '1.2.8',
 	downloadLink:
-		'https://raw.githubusercontent.com/media-processor/chzzk-clip-downloader/refs/heads/main/release/1.2.6.zip',
-	md5: '29f35027cde4650138724c1132169d15',
+		'https://raw.githubusercontent.com/media-processor/chzzk-clip-downloader/refs/heads/main/release/1.2.8.zip',
+	checksum: 'sha256:670654872922f5aa25d778b517c481e976febb1bea8c231a7c68e9405655403c',
 	githubLink: 'https://github.com/media-processor/chzzk-clip-downloader',
 	ts2mp4Link: 'https://github.com/aciddust/ts2mp4'
 };

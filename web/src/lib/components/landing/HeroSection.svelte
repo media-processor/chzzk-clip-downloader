@@ -114,24 +114,8 @@
 
 				<div class="mt-8 flex items-center gap-6 text-sm text-gray-500">
 					<div class="flex items-center gap-2">
-						<svg
-							width="16"
-							height="16"
-							viewBox="0 0 24 24"
-							fill="none"
-							stroke="currentColor"
-							stroke-width="2"
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							class="text-gray-400"
-						>
-							<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-						</svg>
-						<span>Virus Free</span>
-					</div>
-					<div class="flex items-center gap-2">
 						<span class="h-1.5 w-1.5 rounded-full bg-gray-600"></span>
-						<span class="font-mono">MD5: {APP_INFO.md5.substring(0, 8)}...</span>
+						<span class="font-mono">{APP_INFO.checksum.substring(0, 32)}...</span>
 					</div>
 				</div>
 			</div>
