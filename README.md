@@ -10,11 +10,11 @@
 
 | 버전 | 다운로드 | checksum |
 | - | - | - |
-| 1.4.9 | [💾](https://raw.githubusercontent.com/media-processor/chzzk-clip-downloader/refs/heads/main/release/1.4.9.zip) | sha256:a504e93a2ec3c574ff379c04af94a5f8d79258d2bad46aee39f78f6824ba4e5d |
+| 1.5.1 | [💾](https://raw.githubusercontent.com/media-processor/chzzk-clip-downloader/refs/heads/main/release/1.5.1.zip) | sha256:8a252449fdaa46d7489b0bcaecd40a6101fd5f2e29daa870229f49d50cc8f7a1 |
 
 ## 릴리즈 버전 설치 방법
 
-1. [릴리즈 버전 다운로드](https://raw.githubusercontent.com/media-processor/chzzk-clip-downloader/refs/heads/main/release/1.4.9.zip)
+1. [릴리즈 버전 다운로드](https://raw.githubusercontent.com/media-processor/chzzk-clip-downloader/refs/heads/main/release/1.5.1.zip)
 
 2. 압축 해제
 ![압축 해제](docs/install/0.png)

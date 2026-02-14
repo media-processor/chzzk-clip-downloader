@@ -1,9 +1,9 @@
 export const APP_INFO = {
-	version: '1.4.9',
+	version: '1.5.1',
 	storeLink:
 		'https://chromewebstore.google.com/detail/%EC%B9%98%EC%A7%80%EC%A7%81-%ED%81%B4%EB%A6%BD-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%8D%94/gkblidmkgpdljmiaapdlnmogmhfcidee?authuser=0&hl=ko',
 	downloadLink:
-		'https://raw.githubusercontent.com/media-processor/chzzk-clip-downloader/refs/heads/main/release/1.4.9.zip',
+		'https://raw.githubusercontent.com/media-processor/chzzk-clip-downloader/refs/heads/main/release/1.5.1.zip',
 	checksum: 'sha256:a504e93a2ec3c574ff379c04af94a5f8d79258d2bad46aee39f78f6824ba4e5d',
 	githubLink: 'https://github.com/media-processor/chzzk-clip-downloader',
 	ts2mp4Link: 'https://github.com/aciddust/ts2mp4'
