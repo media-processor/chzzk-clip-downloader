@@ -46,7 +46,7 @@
 						>v{APP_INFO.version} Release Available</span
 					>
 				</div>
-
+				<h1 class="hidden">치지직 클립 다운로더</h1>
 				<h1
 					class="mb-6 text-5xl leading-[1.1] font-bold tracking-tight break-keep text-white md:text-7xl"
 				>
