@@ -1,5 +1,5 @@
 export const APP_INFO = {
-	version: '1.6.2',
+	version: '1.11.6',
 	storeLink:
 		'https://chromewebstore.google.com/detail/%EC%B9%98%EC%A7%80%EC%A7%81-%ED%81%B4%EB%A6%BD-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%8D%94/gkblidmkgpdljmiaapdlnmogmhfcidee?authuser=0&hl=ko',
 	githubLink: 'https://github.com/media-processor/chzzk-clip-downloader',
