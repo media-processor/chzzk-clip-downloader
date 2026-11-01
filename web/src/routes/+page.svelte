@@ -3,6 +3,8 @@
 	import HeroSection from '$lib/components/landing/HeroSection.svelte';
 	import InstallGuide from '$lib/components/landing/InstallGuide.svelte';
 	import UsageGuide from '$lib/components/landing/UsageGuide.svelte';
+	import FeatureGuide from '$lib/components/landing/FeatureGuide.svelte';
+	import FaqSection from '$lib/components/landing/FaqSection.svelte';
 	import ContactSection from '$lib/components/landing/ContactSection.svelte';
 	import Footer from '$lib/components/landing/Footer.svelte';
 	import { APP_INFO } from '$lib/constants';
@@ -76,6 +78,16 @@
 					>사용 방법</button
 				>
 				<button
+					onclick={() => scrollToSection('guide')}
+					class="cursor-pointer text-sm font-medium text-gray-300 transition-colors hover:text-white"
+					>기능 가이드</button
+				>
+				<button
+					onclick={() => scrollToSection('faq')}
+					class="cursor-pointer text-sm font-medium text-gray-300 transition-colors hover:text-white"
+					>자주 묻는 질문</button
+				>
+				<button
 					onclick={() => scrollToSection('contact')}
 					class="cursor-pointer text-sm font-medium text-gray-300 transition-colors hover:text-white"
 					>문의하기</button
@@ -147,6 +159,14 @@
 					class="py-2 text-left text-gray-300 hover:text-white">사용 방법</button
 				>
 				<button
+					onclick={() => scrollToSection('guide')}
+					class="py-2 text-left text-gray-300 hover:text-white">기능 가이드</button
+				>
+				<button
+					onclick={() => scrollToSection('faq')}
+					class="py-2 text-left text-gray-300 hover:text-white">자주 묻는 질문</button
+				>
+				<button
 					onclick={() => scrollToSection('contact')}
 					class="py-2 text-left text-gray-300 hover:text-white">문의하기</button
 				>
@@ -165,6 +185,8 @@
 		<HeroSection />
 		<InstallGuide />
 		<UsageGuide />
+		<FeatureGuide />
+		<FaqSection />
 		<ContactSection />
 	</main>
 

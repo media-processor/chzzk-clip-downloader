@@ -102,7 +102,7 @@
     </div>
 
     {#if !isSubmitted}
-      <form class="mx-auto max-w-2xl" on:submit={handleSubmit} transition:fade={{ duration: 300 }}>
+      <form class="mx-auto max-w-2xl" onsubmit={handleSubmit} transition:fade={{ duration: 300 }}>
         <div class="mb-4">
           <label for="name" class="block text-sm font-medium text-gray-300 mb-1">이름</label>
           <input

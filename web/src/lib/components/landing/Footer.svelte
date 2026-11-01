@@ -31,6 +31,8 @@
 				href={APP_INFO.storeLink}
 				target="_blank"
 				rel="noreferrer"
+				aria-label="Chrome 웹 스토어"
+				title="Chrome 웹 스토어"
 				class="text-gray-400 transition-colors hover:text-white"
 			>
 				<svg
@@ -50,7 +52,12 @@
 					<line x1="10.88" y1="21.94" x2="15.46" y2="14" />
 				</svg>
 			</a>
-			<a href={APP_INFO.ts2mp4Link} class="text-gray-400 transition-colors hover:text-white">
+			<a
+				href={APP_INFO.ts2mp4Link}
+				aria-label="ts2mp4 (GitHub)"
+				title="ts2mp4 (GitHub)"
+				class="text-gray-400 transition-colors hover:text-white"
+			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					width="24"
