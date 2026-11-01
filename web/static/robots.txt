@@ -1,0 +1,4 @@
+# static/robots.txt
+User-agent: *
+Allow: /
+Sitemap: https://media-processor.github.io/chzzk-clip-downloader
