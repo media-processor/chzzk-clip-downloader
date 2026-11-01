@@ -1,3 +1,5 @@
+import { base } from '$app/paths';
+
 // 기능 가이드와 자주 묻는 질문 데이터.
 // 문구를 고칠 때는 이 파일만 수정하면 된다. (확장 프로그램 v1.11.8 기준)
 
@@ -7,8 +9,23 @@ export interface GuideFeature {
 	summary: string;
 	steps: string[];
 	tips?: string[];
-	image?: { src: string; alt: string };
+	images?: GuideImage[];
 }
+
+export interface GuideImage {
+	src: string;
+	alt: string;
+	caption?: string;
+}
+
+const img = (name: string) => `${base}/images/guide/${name}`;
+
+// 플레이어 하단 버튼 (라이브, 다시보기 공통)
+const PLAYER_BUTTONS: GuideImage = {
+	src: img('player-buttons.webp'),
+	alt: '플레이어 하단 버튼',
+	caption: '플레이어 하단 오른쪽. 왼쪽부터 캡처 버튼, 녹화 버튼입니다.'
+};
 
 export interface FaqItem {
 	question: string;
@@ -20,6 +37,7 @@ export const GUIDE_FEATURES: GuideFeature[] = [
 		id: 'clip',
 		title: '클립 다운로드',
 		summary: '재생한 클립을 TS 원본 또는 MP4 파일로 저장합니다.',
+		images: [{ src: img('clips.webp'), alt: '클립 목록 탭', caption: '클립 목록 탭. 재생한 클립이 쌓이고 TS, MP4 버튼으로 저장합니다.' }],
 		steps: [
 			'브라우저 우측 상단의 확장 프로그램 아이콘을 눌러 확장 프로그램 창을 엽니다.',
 			'치지직에서 클립을 재생하면 "클립 목록" 탭에 자동으로 추가됩니다.',
@@ -35,6 +53,7 @@ export const GUIDE_FEATURES: GuideFeature[] = [
 		id: 'live',
 		title: '라이브 녹화',
 		summary: '라이브 방송에서 원하는 구간만 녹화합니다.',
+		images: [PLAYER_BUTTONS, { src: img('recording-tab.webp'), alt: '라이브 녹화기 탭', caption: '라이브 녹화기 탭. 녹화 버튼 표시, 녹화 상태 초기화, 임시파일 정리를 할 수 있습니다.' }],
 		steps: [
 			'라이브 방송 페이지에서 플레이어 하단의 녹화 버튼을 누릅니다. 단축키 R로도 시작할 수 있습니다.',
 			'녹화 파일은 1분마다 나뉘어 다운로드 폴더에 저장됩니다.',
@@ -49,6 +68,7 @@ export const GUIDE_FEATURES: GuideFeature[] = [
 		id: 'vod',
 		title: '다시보기 구간 녹화',
 		summary: '다시보기 영상에서 필요한 부분만 잘라 저장합니다.',
+		images: [PLAYER_BUTTONS],
 		steps: [
 			'다시보기 영상에서 저장을 시작할 지점으로 이동합니다.',
 			'플레이어 하단의 녹화 버튼을 누르거나 단축키 R을 누릅니다.',
@@ -60,6 +80,7 @@ export const GUIDE_FEATURES: GuideFeature[] = [
 		id: 'capture',
 		title: '화면 캡처와 갤러리',
 		summary: '플레이어 화면을 캡처해 갤러리에 모아 두고 한 번에 내려받습니다.',
+		images: [{ src: img('gallery.webp'), alt: '갤러리 탭', caption: '갤러리 탭. 캡처 이미지 포맷을 고르고, 방송별로 모인 캡처를 확인합니다.' }],
 		steps: [
 			'플레이어 하단의 캡처 버튼을 누르거나 단축키 S를 누릅니다.',
 			'캡처한 화면은 확장 프로그램 창의 "갤러리" 탭에 방송 제목별로 모입니다.',
@@ -75,6 +96,7 @@ export const GUIDE_FEATURES: GuideFeature[] = [
 		id: 'settings',
 		title: '설정',
 		summary: '저장 위치, 단축키, 플레이어 버튼 표시를 바꿉니다.',
+		images: [{ src: img('settings.webp'), alt: '설정 탭', caption: '설정 탭' }],
 		steps: [
 			'"정리된 폴더 구조로 저장"을 켜면 클립, 녹화, 캡처가 chzzk-clips, chzzk-recording, chzzk-screenshots 폴더로 나뉘어 저장됩니다. 끄면 다운로드 폴더에 바로 저장됩니다.',
 			'녹화 단축키(기본 R)와 캡처 단축키(기본 S)는 설정 탭에서 다른 키로 바꾸거나 끌 수 있습니다.',

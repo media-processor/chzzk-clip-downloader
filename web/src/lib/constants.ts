@@ -11,7 +11,7 @@ export const APP_INFO = {
 // GitHub Pages(web/static)에서 직접 제공하는 자산. base 경로(/chzzk-clip-downloader)를 붙여 사용.
 export const ASSETS = {
 	usagePin: `${base}/images/usage-pin.png`,
-	usagePopup: `${base}/images/usage-popup.jpg`,
+	usagePopup: `${base}/images/guide/clips.webp`,
 	usageSidePanel: `${base}/images/usage-sidepanel.png`,
 	heroPoster: `${base}/images/hero-poster.jpg`,
 	usagePoster: `${base}/images/usage-poster.jpg`,

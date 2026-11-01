@@ -75,9 +75,25 @@
 					</div>
 				{/if}
 
-				{#if active.image}
-					<div class="mt-8 overflow-hidden rounded-lg border border-gray-800">
-						<img src={active.image.src} alt={active.image.alt} class="w-full" loading="lazy" />
+				{#if active.images?.length}
+					<div class="mt-8 grid gap-6 {active.images.length > 1 ? 'md:grid-cols-2' : ''}">
+						{#each active.images as image (image.src)}
+							<figure class="min-w-0">
+								<div class="overflow-hidden rounded-lg border border-gray-800 bg-white">
+									<img
+										src={image.src}
+										alt={image.alt}
+										class="mx-auto w-full max-w-[600px]"
+										loading="lazy"
+									/>
+								</div>
+								{#if image.caption}
+									<figcaption class="mt-2 text-xs break-keep text-gray-500">
+										{image.caption}
+									</figcaption>
+								{/if}
+							</figure>
+						{/each}
 					</div>
 				{/if}
 			</div>
